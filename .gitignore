@@ -1,4 +1,6 @@
-# Ignore inventory files
+# inventory files
 
 inventory*
 *inventory.yml
+
+# variable files
