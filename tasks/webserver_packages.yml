@@ -1,0 +1,4 @@
+- name: Install Application Packages
+  when: ansible_facts['hostname'] == "webserver"
+  yum:
+    name: "{{ app_packages }}"
